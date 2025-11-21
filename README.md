@@ -83,6 +83,10 @@ The training script will:
 
 The model outputs detailed metrics including Accuracy, Precision, Recall, and F1-score. It is designed to robustly distinguish between "Replace" (significant morphological change) and "Keep" (insignificant change/noise) decisions, even in complex many-to-many matching scenarios.
 
+## 🧱Data
+
+All data used in this study are derived from publicly available official datasets. The building vector data for the Amsterdam dataset are from the BRT/TOP10NL product published on the PDOK platform of the Dutch national geoinformation infrastructure, including versions from 2022 and 2024. (Access: https://service.pdok.nl/brt/topnl/atom/top10nl.xml) The building footprint data for the Hamburg dataset are derived from the Hamburg 3D city model (LoD1), published by Freie und Hansestadt Hamburg, Landesbetrieb Geoinformation und Vermessung through the Hamburg Open Data portal under the dl-de/by-2-0 license. (LoD1 Hamburg 2015: https://daten-hamburg.de/geographie_geologie_geobasisdaten/3d_stadtmodell_lod1/LoD1_HH_2015-03-25.zip), (LoD1 Hamburg 2018: https://daten-hamburg.de/geographie_geologie_geobasisdaten/3d_stadtmodell_lod1/LoD1-DE_HH_2018-03-23.zip).
+
 ## 📑 Citation
 
 If you use this code or ideas in your own work, please cite the corresponding paper. 
